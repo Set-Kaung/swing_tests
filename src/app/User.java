@@ -3,30 +3,25 @@ package app;
 
 public class User {
     private String StudentID;
-    private char[] password;
+    private char[] Password;
 
-    public User(String StudentID, char[] password){
-        this.StudentID = StudentID;
-        this.password = password;
+
+    public User(String studentID, char[] password) {
+        this.StudentID = studentID;
+        this.Password = password;
     }
-
     public String getStudentID() {
         return StudentID;
     }
-    public void setStudentID(String StudentID) {
-        this.StudentID = StudentID;
+    public void setStudentID(String studentID) {
+        StudentID = studentID;
     }
     public char[] getPassword() {
-        return password;
+        return Password;
     }
     public void setPassword(char[] password) {
-        this.password = password;
+        Password = password;
     }
 
-
-    // public void setID(UUID iD) {
-    //     ID = iD;
-    // }
-    
     
 }

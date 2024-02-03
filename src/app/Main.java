@@ -2,10 +2,11 @@ package app;
 
 
 
+/**
+ * Main
+ */
 public class Main {
-   public static void main(String[] args) {
-        App app = App.getInstance();
-        new SignUp(app);
-   }
+    public static void main(String[] args) {
+        
+    }
 }
-
